@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="">
+
+  <title>Random Funny Joke Generator</title>
+
+  <!-- font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="./output.css">
+
+  <!-- js clink -->
+  <script src="./script.js" defer></script>
+</head>
+
+<body class="bg-Dark_Blue font-Manrape  min-h-screen grid place-items-center px-3 relative">
+  <!-- <h2>jokee</h2> -->
+  <main class="bg-Dark_Grayish_Blue w-full pt-12 px-6 pb-2 rounded-xl max-w-[367px] md:max-w-[545px]">
+
+    <article class="text-center relative">
+      <blockquote>
+        <p class="before:content-['\201C'] after:content-['\201C'] text-Light_Cyan text-2xl mb-5" id="joke-text">CLICK
+          DICE FOR JOKE</p>
+      </blockquote>
+
+      <button id="generate-btn"
+        class="bg-Neon_Green rounded-full p-4 w-14 static translate-x-[1%] translate-y-[65%] hover:shadow-[0px_0px_20px_5px_rgba(82,255,168,0.57)] transition-all delay-75 ease-linear active:scale-50">
+        <img class="mx-auto" src="./images/icon-dice.svg" alt="dice-icon">
+      </button>
+
+
+    </article>
+  </main>
+
+</body>
+
+</html>
